@@ -33,7 +33,6 @@ ALLOWED_HOSTS = []
 MEDIA_ROOT = '/home/thomas/mysite/blogs/media/'
 
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig',
     'blogs.apps.BlogsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
